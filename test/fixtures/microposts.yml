@@ -1,0 +1,18 @@
+# == Schema Information
+#
+# Table name: microposts
+#
+#  id         :integer          not null, primary key
+#  message    :text
+#  user_id    :integer
+#  created_at :datetime         not null
+#  updated_at :datetime         not null
+#
+
+one:
+  message: MyText
+  user: one
+
+two:
+  message: MyText
+  user: two
